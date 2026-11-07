@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+*.db
+__pycache__/
+.venv/
+.vercel/

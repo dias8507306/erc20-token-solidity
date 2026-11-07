@@ -1,0 +1,20 @@
+{
+  "name": "erc20-token-solidity",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EduToken (EDU) — a minimal ERC-20 token on OpenZeppelin with a Hardhat lab script and tests",
+  "author": "Dias Ayazbay",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "lab": "hardhat run scripts/lab.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
