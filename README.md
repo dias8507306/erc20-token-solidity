@@ -40,8 +40,8 @@ Everything runs on the built-in Hardhat network: no wallet, RPC URL or private k
 
 Author: Dias Ayazbay (Blockchain course, Lab 8, variant 4).
 
-## Қысқаша (KZ)
+## Кратко (RU)
 
-Бұл OpenZeppelin негізіндегі қарапайым ERC-20 токен (EduToken, EDU). Бастапқы эмиссиясы 4000 EDU, барлығы контрактты орналастырған аккаунтқа беріледі.
-`scripts/lab.js` зертханалық жұмыстың барлық қадамдарын жергілікті Hardhat желісінде орындайды: transfer, approve, transferFrom және лимиттен асқанда revert.
-Тесттерді іске қосу үшін `npm install` пен `npx hardhat test` жеткілікті.
+Простой ERC-20 токен (EduToken, EDU) на базе OpenZeppelin. Начальная эмиссия 4000 EDU уходит аккаунту, задеплоившему контракт.
+`scripts/lab.js` выполняет все шаги лабораторной в локальной сети Hardhat: transfer, approve, transferFrom и revert при превышении лимита.
+Для тестов достаточно `npm install` и `npx hardhat test`.
